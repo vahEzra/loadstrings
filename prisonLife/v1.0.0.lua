@@ -20,7 +20,6 @@ local Tabs = {
 
 local Options = Fluent.Options
 
-do
     Fluent:Notify({
         Title = "script Loaded",
         Content = "the script has loaded.",
@@ -116,7 +115,7 @@ do
    --     Values = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen"},
     --    Multi = true,
     --    Default = {"seven", "twelve"},
-    })
+--   })
 
    -- MultiDropdown:SetValue({
    --     three = true,
@@ -134,7 +133,7 @@ do
 
 
 --
-    local Colorpicker = Tabs.Main:AddColorpicker("Colorpicker", {
+   -- local Colorpicker = Tabs.Main:AddColorpicker("Colorpicker", {
  --       Title = "Colorpicker",
  --       Default = Color3.fromRGB(96, 205, 255)
  --   })
